@@ -54,9 +54,30 @@
 
 <?php endif; ?>
 
+
+<div class="site-map">
+	<div class="col-1">
+		<h1>BIOTA</h1>
+	</div>
+	<div class="col-2">
+		<ul>
+			<li>ABOUT US</li>
+			<li>CONTACT US</li>
+			<li>RECRUITING</li>
+			<li>MEDIA CENTER</li>
+		</ul>
+	</div>
+	<div class="col-3">
+		<h3>FOLLOW US</h3>
+		
+	</div>
+</div>
+
 <div class="credits section light-padding">
 
 	<div class="credits-inner section-inner">
+
+
 	
 		<p class="fleft">
 		

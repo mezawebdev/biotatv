@@ -1,5 +1,11 @@
+<?php /* Template Name: AboutUs */ ?>
+
 <?php get_header(); ?>
 
+<div id="home-page-background">
+	<h1><span>We are</span> BIOTA</h1>
+	<button>DONATE NOW</button>
+</div>
 <div class="content">		
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>				
 	
@@ -26,15 +32,19 @@
 				</div> <!-- /featured-media -->
 					
 			<?php endif; ?>
-											
-			<div class="post-header section">
-		
-				<div class="post-header-inner section-inner">
-																									
-					<h1 class="post-title"><?php the_title(); ?></h1>
-				
-				</div> <!-- /post-header-inner section-inner -->
-														
+			<br />						
+			<div class="post-header section about-us-body">
+					<div class="post-header-inner section-inner">
+						<div class="section-one">					
+							<h1 class="post-title"><?php the_title(); ?></h1>
+							<br />
+							<br />
+							<h3>BIOTA strives to increase participation of underrepresented demographics in science.</h3>
+							<br />
+							<p>We do this through documentary filmmaking, social media, art, and music. Our stories take place in ecosystems in the viewer's backyard and introduce the viewer to current issues, leaving them with a "call to action" through the lens of symbiosis science.</p>
+						</div>
+					</div> <!-- /post-header-inner section-inner -->
+													
 			</div> <!-- /post-header section -->
 			    
 		    <div class="post-content section-inner thin">
@@ -57,6 +67,21 @@
 		<p><?php _e("We couldn't find any posts that matched your query. Please try again.", "radcliffe"); ?></p>
 
 	<?php endif; ?>
+
+	<div class="donation-box">
+		<h1>SUPPORT US</h1>
+		<form>
+			<ul>
+				<li><button>35$</button></li>
+				<li><button>50$</button></li>
+				<li><button>75$</button></li>
+				<li><button>100$</button></li>
+				<li><button>200$</button></li>
+				<li><input type="text" name="other-amount" placeholder="OTHER"/></li>
+				<li><button class="donation-box-submit">DONATE NOW</button></li>
+			</ul>
+		</form>
+	</div>
 
 	<div class="clear"></div>
 	
