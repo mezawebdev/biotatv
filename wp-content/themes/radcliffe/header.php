@@ -32,19 +32,11 @@
 		
 			<div class="header-inner section-inner">
 			
-				<?php if ( get_theme_mod( 'radcliffe_logo' ) ) : ?>
 					
 				        <a class="blog-logo" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>' rel='home'>
-				        	<img src='<?php echo esc_url( get_theme_mod( 'radcliffe_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'title' ) ); ?>'>
+				        	<img src="wp-content/images/biotatv-logo2.png" />
 				        </a>
-			
-				<?php elseif ( get_bloginfo( 'description' ) || get_bloginfo( 'title' ) ) : ?>
-			
-					<h1 class="blog-title">
-						<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'title' ) ); ?></a>
-					</h1>
-					
-				<?php endif; ?>
+
 				
 				<div class="nav-toggle">
 				
@@ -83,7 +75,7 @@
 						
 					} ?>
 					
-					<li class="search-toggle-menu-item"><a href="#" class="search-toggle" title="<?php _e('Show the search field','radcliffe') ?>"></a></li>
+					<!--<li class="search-toggle-menu-item"><a href="#" class="search-toggle" title="<?php _e('Show the search field','radcliffe') ?>"></a></li>-->
 						
 				 </ul>
 				
@@ -118,9 +110,9 @@
 					
 			 </ul>
 			 
-			 <form method="get" class="mobile-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+			<!-- <form method="get" class="mobile-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<input type="search" placeholder="<?php _e('Search form', 'radcliffe'); ?>" name="s" id="s" /> 
 					<input type="submit" value="<?php _e('Search', 'radcliffe'); ?>" class="search-button">
-				</form>
+				</form>-->
 			 
 		</div> <!-- /mobile-menu-container -->

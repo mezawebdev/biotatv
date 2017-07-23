@@ -66,7 +66,7 @@
 		
 		<p class="fright">
 			
-			<span><?php _e( 'Theme by', 'radcliffe' ); ?> <a href="http://www.andersnoren.se">Anders Nor&eacute;n</a> &mdash; </span><a title="<?php _e('To the top', 'radcliffe'); ?>" href="#" class="tothetop"><?php _e('Up', 'radcliffe' ); ?> &uarr;</a>
+			<span>SITE BY <a href="http://alexmeza.me">Alex Meza</a> &mdash; </span><a title="<?php _e('To the top', 'radcliffe'); ?>" href="#" class="tothetop"><?php _e('Up', 'radcliffe' ); ?> &uarr;</a>
 			
 		</p>
 		
