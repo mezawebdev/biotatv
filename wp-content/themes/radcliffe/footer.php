@@ -55,21 +55,62 @@
 <?php endif; ?>
 
 
-<div class="site-map">
-	<div class="col-1">
-		<h1>BIOTA</h1>
-	</div>
-	<div class="col-2">
+<div class="donation-box">
+	<h1>SUPPORT US</h1>
+	<form type="post">
 		<ul>
-			<li>ABOUT US</li>
-			<li>CONTACT US</li>
-			<li>RECRUITING</li>
-			<li>MEDIA CENTER</li>
+			<div class="row">
+				<div class="col-xs-3">
+					<li><button>35$</button></li>
+				</div>
+				<div class="col-xs-3">
+					<li><button>50$</button></li>
+				</div>
+				<div class="col-xs-3">
+					<li><button>75$</button></li>
+				</div>
+				<div class="col-xs-3">
+					<li><button>100$</button></li>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<li><button>200$</button></li>
+				</div>
+				<div class="col-xs-6">
+					<li><input type="text" class="other-amount" name="other-amount" placeholder="OTHER"/></li>
+				</div>
+			</div>
+			<li><button class="donation-box-submit">DONATE NOW</button></li>
 		</ul>
-	</div>
-	<div class="col-3">
-		<h3>FOLLOW US</h3>
-		
+	</form>
+</div>
+
+<div class="site-map container-fluid">
+	<div class="row">
+		<div class="col-sm-4">
+			<h1>BIOTA</h1>
+		</div>
+		<div class="col-sm-4">
+			<ul>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">CONTACT US</a></li>
+				<li><a href="#">RECRUITING</a></li>
+				<li><a href="#">MEDIA CENTER</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-4">
+			<h3>FOLLOW US</h3>
+			<div class="col-xs-5">
+				<button style="float: right;"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+			</div>
+			<div class="col-xs-2">
+				<button><i class="fa fa-instagram" aria-hidden="true"></i></button>
+			</div>
+			<div class="col-xs-5">
+				<button style="float: left;"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+			</div>
+		</div>
 	</div>
 </div>
 

@@ -11,6 +11,11 @@
 		<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
 		 
 		<?php wp_head(); ?>
+
+		<link rel="stylesheet" href="../wp-content/themes/radcliffe/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../wp-content/themes/radcliffe/css/font-awesome.css" />
+		<link rel="stylesheet" href="wp-content/themes/radcliffe/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="wp-content/themes/radcliffe/css/font-awesome.css" />
 	
 	</head>
 	
@@ -34,7 +39,7 @@
 			
 					
 				        <a class="blog-logo" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'title' ) ); ?> &mdash; <?php echo esc_attr( get_bloginfo( 'description' ) ); ?>' rel='home'>
-				        	<img src="wp-content/images/biotatv-logo2.png" />
+				        	<img id="site-logo" />
 				        </a>
 
 				

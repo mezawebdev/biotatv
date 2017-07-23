@@ -68,20 +68,6 @@
 
 	<?php endif; ?>
 
-	<div class="donation-box">
-		<h1>SUPPORT US</h1>
-		<form>
-			<ul>
-				<li><button>35$</button></li>
-				<li><button>50$</button></li>
-				<li><button>75$</button></li>
-				<li><button>100$</button></li>
-				<li><button>200$</button></li>
-				<li><input type="text" name="other-amount" placeholder="OTHER"/></li>
-				<li><button class="donation-box-submit">DONATE NOW</button></li>
-			</ul>
-		</form>
-	</div>
 
 	<div class="clear"></div>
 	

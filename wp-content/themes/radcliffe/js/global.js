@@ -1,6 +1,24 @@
 jQuery(document).ready(function($) {
 	
 	
+
+	//--------------------
+	// EDITS BY ALEX MEZA
+	//--------------------
+	// Header Logo Hack Fix
+	var url = window.location.href.split("/");
+	if (url[4] === "") {
+		$("#site-logo").attr("src", "wp-content/images/biotatv-logo2.png");
+	} else {
+		$("#site-logo").attr("src", "../wp-content/images/biotatv-logo2.png");
+	}	
+
+
+
+	//----------- END OF EDITS BY ALEX MEZA ------------//
+
+
+
 	// toggle blog-menu
 	$(".nav-toggle").on("click", function(){	
 		$(this).toggleClass("active");
@@ -67,5 +85,11 @@ jQuery(document).ready(function($) {
 	$(window).resize(function() {
 		resizeVideo(vidSelector);
 	});
+
+
+
+
+
+
 	
 });
