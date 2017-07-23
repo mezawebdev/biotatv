@@ -1,4 +1,4 @@
-<div class="top-bar">
+<!--<div class="top-bar">
 	<div class="top-bar-wrapper">
 		<?php $description = get_bloginfo( 'description', 'display' );
 
@@ -7,5 +7,5 @@
 		<?php endif; ?>
 
 		<?php karuna_social_menu(); ?>
-	</div><!-- .top-bar-wrapper -->
-</div><!-- .top-bar -->
+	</div><!-- .top-bar-wrapper
+</div> .top-bar -->
