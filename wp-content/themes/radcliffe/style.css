@@ -130,6 +130,17 @@ Large devices (large desktops, 1200px and up): @media (min-width: @screen-lg) { 
 	border-radius: 5px;
 }
 
+.the-header {
+	width: 100%;
+	padding: 70px;
+	background: linear-gradient(0deg, #D72823, #751411);
+	color: #F6F0F0;
+	background-image: url(../../images/header-background.png);
+}
+
+.post-title {
+	font-weight: bold;
+}
 
 /*--------------------*/
 /*	Footer
@@ -185,6 +196,7 @@ Large devices (large desktops, 1200px and up): @media (min-width: @screen-lg) { 
 	font-size: 1.4em;
 }
 
+.
 
 @media (min-width: 480px) {
 	.site-map .row .col-sm-4 {
@@ -202,14 +214,68 @@ Large devices (large desktops, 1200px and up): @media (min-width: @screen-lg) { 
 /*---------------------
 /*	About Us Page
 /*---------------------*/
-.about-us-body h3 {
+.about-us-body h3, .team-body h3 {
 	font-size: 1.5em;
 	line-height: 30px;
 	color: #DA2A24;
 }
 
-.about-us-body p {
+.about-us-body p, .team-body p {
 	line-height: 25px;
+}
+
+.team-body .profile-pic {
+	width: 100%;
+	height: auto;
+}
+
+.team-body .profile-pic .picture {
+	width: 150px;
+	height: 190px;
+	position: absolute;
+	z-index: 99;
+	transform: translate(-50%, 0);
+	left: 50%;
+	margin-top: 50px;
+	background-image: url("../../images/blank.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.team-body .row h1 {
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 50px;
+}
+
+.team-body .row h3 {
+	color: #989595;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.team-body .row p {
+	margin-top: 20px;
+}
+
+.team-body .profile-pic .square-1 {
+	width: 160px;
+	height: 190px;
+	background: rgba(0, 0, 0, 0.3);
+	transform: translate(-50%, 0);
+	position: relative;
+	left: 50%;
+	margin: 0 0 0 -30px;
+}
+
+.team-body .profile-pic .square-2 {
+	width: 160px;
+	height: 190px;
+	background: rgba(240, 71, 74, 0.5);
+	transform: translate(-50%, 0);
+	position: relative;
+	left: 50%;
+	margin: -80px 0 0 30px;
 }
 
 .donation-box {
@@ -275,7 +341,6 @@ Large devices (large desktops, 1200px and up): @media (min-width: @screen-lg) { 
 }
 
 /* Small Device */
-
 @media (min-width: 768px) {
 	#home-page-background {
 		background-position: 50% 50%;
@@ -284,7 +349,13 @@ Large devices (large desktops, 1200px and up): @media (min-width: @screen-lg) { 
 	.donation-box form button.donation-box-submit {
 		width: 50%;
 	}
+
+	.team-body .row h1 {
+		margin-top: 0px;
+	}
 }
+
+
 
 /* -------------------------------------------------------------------------------- */
 /*	1. Document Setup

@@ -32,9 +32,9 @@ define('DB_HOST', 'localhost');
 // ONLINE
 /*
 define('DB_NAME', 'biotatv');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'root');
-define('DB_HOST', 'localhost');
+define('DB_USER', 'alex_meza');
+define('DB_PASSWORD', 'gunsgunS1');
+define('DB_HOST', '107.180.41.45');
 */
 
 /** Database Charset to use in creating database tables. */
