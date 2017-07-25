@@ -52,12 +52,14 @@
 						<div class="bar"></div>
 						<div class="bar"></div>
 						<div class="bar"></div>
-						
+			
 						<div class="clear"></div>
 					
 					</div>
-				
+					<button style="margin: -13px 0 0 35px;" class="youtube-link"><i class="fa fa-youtube" aria-hidden="true"></i></button>
 				</div>
+
+
 		
 				<ul class="main-menu fright">
 					
@@ -81,11 +83,11 @@
 					} ?>
 					
 					<!--<li class="search-toggle-menu-item"><a href="#" class="search-toggle" title="<?php _e('Show the search field','radcliffe') ?>"></a></li>-->
-						
+					<button class="youtube-link"><i class="fa fa-youtube" aria-hidden="true"></i></button>
 				 </ul>
 				
 				<div class="clear"></div>
-			
+				
 			</div> <!-- /header -->
 			
 		</div> <!-- /header.section -->

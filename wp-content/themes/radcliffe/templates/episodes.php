@@ -30,13 +30,38 @@
 			<?php endif; ?>		
 			<div class="the-header">
 				<h1 class="post-title"><?php the_title();?></h1>
-			</div>				
-			<div class="post-header section about-us-body">
+			</div>			
+			<div class="post-header section episodes-body">
 					<div class="post-header-inner section-inner">
 						<div class="section-one">					
-							<h3>BIOTA strives to increase participation of underrepresented demographics in science.</h3>
-							<br />
-							<p>We do this through documentary filmmaking, social media, art, and music. Our stories take place in ecosystems in the viewer's backyard and introduce the viewer to current issues, leaving them with a "call to action" through the lens of symbiosis science.</p>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="episode">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="episode">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="episode">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="episode">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="episode">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="episode">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div> <!-- /post-header-inner section-inner -->
 													
