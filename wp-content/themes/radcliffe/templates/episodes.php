@@ -37,28 +37,59 @@
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="episode">
+										<div class="episode-picture">
+										</div>
+										<div class="episode-description">
+											I am a description to this video. This video is about biota and other things.
+										</div>
 									</div>
 								</div>
 								<div class="col-sm-4">
 									<div class="episode">
+										<div class="episode-picture">
+
+										</div>
+										<div class="episode-description">
+											I am a description to this video. This video is about biota and other things.
+										</div>
 									</div>
 								</div>
 								<div class="col-sm-4">
 									<div class="episode">
+										<div class="episode-picture">
+										</div>
+										<div class="episode-description">
+											I am a description to this video. This video is about biota and other things.
+										</div>
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="episode">
+										<div class="episode-picture">
+										</div>
+										<div class="episode-description">
+											I am a description to this video. This video is about biota and other things.
+										</div>
 									</div>
 								</div>
 								<div class="col-sm-4">
 									<div class="episode">
+										<div class="episode-picture">
+										</div>
+										<div class="episode-description">
+											I am a description to this video. This video is about biota and other things.
+										</div>
 									</div>
 								</div>
 								<div class="col-sm-4">
 									<div class="episode">
+										<div class="episode-picture">
+										</div>
+										<div class="episode-description">
+											I am a description to this video. This video is about biota and other things.
+										</div>
 									</div>
 								</div>
 							</div>
